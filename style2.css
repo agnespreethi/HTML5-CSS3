@@ -1,0 +1,30 @@
+h2{
+	color: orange;
+}
+p{
+	line-height: 60px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 130%;
+	font-family: "Times New Roman";
+	color: red; 
+	text-align: center; 
+	border: 5px solid yellow; 
+	cursor: pointer;
+}
+img{
+	float: right;
+}
+footer{
+	font-weight: bold;
+	clear: both;
+	text-align: center;
+	font-size: 20px;
+    color: purple;
+}	
+section:hover{
+	background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); /*Background Image for section (header(h2),Paragaraph(p))*/
+}
+span{
+	font-size: 3em;
+}

@@ -1,0 +1,52 @@
+/* Selector{
+	Property: value;
+}*/
+
+* {
+	text-align: right;  /*text are displayed in right side*/
+}
+body{
+	background-image: url(https://eskipaper.com/images/hd-wallpapers-for-pc-15.jpg);
+    background-image: center;
+}      
+h2, p{
+	color: #AA4139; /*brown*/ /*using website Paletton color picker*/
+	text-align: center; /* if comment this h2,p show in right side*/
+	border: 5px solid purple; /*dashed purple & can use rgb,rgba values*/ /*using website Paletton color picker*/
+	cursor: pointer;
+}
+p{
+	color: violet;
+}
+p{
+	color: yellow;
+}
+li{
+	list-style: none;    /* replace unordered list(remove dot points)*/
+	display:inline-block; /* list are displayed in line*/
+}
+.webtext{
+	border: 3px dashed white;
+}
+
+.active{
+	color: red;
+}
+
+#div1{
+	background: rgba(0, 0, 255, 0.2); /*Blue*/
+}
+
+#div2{
+	background: rgba(255, 0, 0, 0.2); /*red*/
+}
+.boxmodel{
+	float: left;
+	border: 2px solid white;
+	display: inline-block;
+	padding: 10px 30px 10px 30px;  /*Top,Right,Bottom,Left*/ 
+	margin: 20px 30px 20px 30px;   /*Top,Right,Bottom,Left*/
+	color: #f70509;
+	font-weight: bold;
+	font-size: 30px;
+}
